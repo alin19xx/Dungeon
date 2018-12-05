@@ -5,7 +5,7 @@
 //  Created by DAM on 05/12/2018.
 //  Copyright © 2018 DAM. All rights reserved.
 //
-
+import UIKit
 import Foundation
 
 
@@ -15,13 +15,15 @@ class Item{
     private var defensa: Int
     private var magia: Int
     private var suerte: Int
+    private var img: UIImage = UIImage()
     
-    init(nombre: String, ataque: Int, defensa: Int, magia: Int, suerte: Int){
+    init(nombre: String, ataque: Int, defensa: Int, magia: Int, suerte: Int, img: UIImage){
         self.nombre = nombre
         self.ataque = ataque
         self.defensa = defensa
         self.magia = magia
         self.suerte = suerte
+        self.img = img
     }
     func getNombre() -> String{
         return nombre
@@ -38,6 +40,9 @@ class Item{
     func getSuerte() -> Int{
         return suerte
     }
+    func getImg() -> UIImage{
+        return img
+    }
     func setNombre(nombre: String){
         self.nombre = nombre
     }
@@ -52,6 +57,9 @@ class Item{
     }
     func setSuerte(suerte: Int){
         self.suerte = suerte
+    }
+    func setImg(img: UIImage){
+        self.img = img
     }
     
 }
