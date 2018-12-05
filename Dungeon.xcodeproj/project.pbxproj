@@ -12,6 +12,11 @@
 		3300B1B321B8440300387228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3300B1B121B8440300387228 /* Main.storyboard */; };
 		3300B1B521B8440500387228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3300B1B421B8440500387228 /* Assets.xcassets */; };
 		3300B1B821B8440500387228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3300B1B621B8440500387228 /* LaunchScreen.storyboard */; };
+		3300B1C021B844A900387228 /* Monstruo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300B1BF21B844A900387228 /* Monstruo.swift */; };
+		3300B1C221B846B600387228 /* Heroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300B1C121B846B600387228 /* Heroe.swift */; };
+		3300B1C421B8480900387228 /* Dungeon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300B1C321B8480900387228 /* Dungeon.swift */; };
+		3300B1C621B8491800387228 /* Inventario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300B1C521B8491800387228 /* Inventario.swift */; };
+		3300B1C821B8493E00387228 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300B1C721B8493E00387228 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		3300B1B421B8440500387228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3300B1B721B8440500387228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3300B1B921B8440500387228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3300B1BF21B844A900387228 /* Monstruo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monstruo.swift; sourceTree = "<group>"; };
+		3300B1C121B846B600387228 /* Heroe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroe.swift; sourceTree = "<group>"; };
+		3300B1C321B8480900387228 /* Dungeon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dungeon.swift; sourceTree = "<group>"; };
+		3300B1C521B8491800387228 /* Inventario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventario.swift; sourceTree = "<group>"; };
+		3300B1C721B8493E00387228 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,14 @@
 				3300B1AD21B8440300387228 /* AppDelegate.swift */,
 				3300B1AF21B8440300387228 /* ViewController.swift */,
 				3300B1B121B8440300387228 /* Main.storyboard */,
+				3300B1BF21B844A900387228 /* Monstruo.swift */,
 				3300B1B421B8440500387228 /* Assets.xcassets */,
 				3300B1B621B8440500387228 /* LaunchScreen.storyboard */,
 				3300B1B921B8440500387228 /* Info.plist */,
+				3300B1C121B846B600387228 /* Heroe.swift */,
+				3300B1C321B8480900387228 /* Dungeon.swift */,
+				3300B1C521B8491800387228 /* Inventario.swift */,
+				3300B1C721B8493E00387228 /* Item.swift */,
 			);
 			path = Dungeon;
 			sourceTree = "<group>";
@@ -135,7 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3300B1C021B844A900387228 /* Monstruo.swift in Sources */,
+				3300B1C221B846B600387228 /* Heroe.swift in Sources */,
+				3300B1C421B8480900387228 /* Dungeon.swift in Sources */,
 				3300B1B021B8440300387228 /* ViewController.swift in Sources */,
+				3300B1C821B8493E00387228 /* Item.swift in Sources */,
+				3300B1C621B8491800387228 /* Inventario.swift in Sources */,
 				3300B1AE21B8440300387228 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
