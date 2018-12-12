@@ -18,6 +18,7 @@
 		3300B1C621B8491800387228 /* Inventario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300B1C521B8491800387228 /* Inventario.swift */; };
 		3300B1C821B8493E00387228 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300B1C721B8493E00387228 /* Item.swift */; };
 		3318856B21C180B00087817F /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3318856A21C180B00087817F /* Menu.swift */; };
+		D91153A621C1963800850274 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91153A521C1963800850274 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		3300B1C521B8491800387228 /* Inventario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventario.swift; sourceTree = "<group>"; };
 		3300B1C721B8493E00387228 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		3318856A21C180B00087817F /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		D91153A521C1963800850274 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				3300B1C521B8491800387228 /* Inventario.swift */,
 				3300B1C721B8493E00387228 /* Item.swift */,
 				3318856A21C180B00087817F /* Menu.swift */,
+				D91153A521C1963800850274 /* RoundButton.swift */,
 			);
 			path = Dungeon;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91153A621C1963800850274 /* RoundButton.swift in Sources */,
 				3300B1C021B844A900387228 /* Monstruo.swift in Sources */,
 				3300B1C221B846B600387228 /* Heroe.swift in Sources */,
 				3318856B21C180B00087817F /* Menu.swift in Sources */,
